@@ -1,11 +1,15 @@
-<h1>Blog Overview</h1>
+<div class="overview-container">
+  <h1>Blog Overview</h1>
 
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article %>
-    </li>
-  <% end %>
-</ul>
+  <ul>
+    <% @articles.each do |article| %>
+      <li>
+        <%= link_to article.title, article %>
+      </li>
+    <% end %>
+  </ul>
 
-<%= link_to "Create new blog post", new_article_path %>
+  <div class="create-new">
+    <%= link_to "Create new blog post", new_article_path %>
+  </div>
+</div>

@@ -16,3 +16,36 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+
+h1 {
+
+}
+li {
+  font-size: xxx-large;
+}
+
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flexbox-item {
+  flex: 0 1 auto;
+}
+
+.flex-item {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.create-new {
+  font-size: xxx-large;
+  margin: 20px;
+}
